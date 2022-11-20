@@ -22,10 +22,10 @@ def pregunta_01():
     print(digits.target_names)
 
     # Imprima las dimensinoes de matriz de datos
-    print(digits.data.shape)
+    print(digits.data.ndim)
 
     # Imprima las dimensiones del vector de salida
-    print(digits.target.shape)
+    print(digits.target.ndim)
 
 
 def pregunta_02():
